@@ -66,8 +66,12 @@ body {
 }
 
 /*contact-nav*/
-.contact .link[href^='mailto'],
-.contact .link[href^='tel'] {
+.contact {
+  font-weight: 500;
+  line-height: 1.14;
+}
+.contact .link,
+.contact .link {
   color: var(--secondary-text-color);
 }
 
@@ -91,6 +95,7 @@ body {
 }
 
 .button {
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
@@ -105,36 +110,41 @@ body {
 }
 .section-title {
   color: var(--primary-text-color);
-  Weight: 700;
-  Size: 36px; 
-  Line-height: 1.71; 
+  font-weight: 700;
+  font-size: 36px; 
+  line-height: 1.71; 
   letter-spacing: 0.03em;
-  Align: Center;
+  text-align: Center;
 
 }
 
 .title {
   color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .work-list .title {
   color: var(--primary-text-color);
+}
+
+.section-team {
+  background-color: var(--secondary-background-color);
 }
 .team-list .title {
   color: var(--primary-text-color);
   font-style: 500;
   font-size: 16px;
   line-height: 1.18;
-  align: Center;
+  text-align: Center;
   letter-spacing: 0.03em;
 }
 .team-position {
-  font-style: 400;
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.18;
-  align: Center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  text-align: Center;
+   color: var(--secondary-text-color);
   
 }
 
@@ -155,7 +165,7 @@ body {
   font-size: 16px;
   color: var(--primary-text-color);
   font-weight: 500;
-
+  letter-spacing: 0.03em;
   background-color: var(--secondary-background-color);
   border: none;
   border-radius: 4px;
@@ -180,7 +190,7 @@ body {
   font-style: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter- spacing: 0.03em;
+  letter-spacing: 0.03em;
   color: var(---secondary-text-color)
 }
 
@@ -191,6 +201,7 @@ body {
 
 .logo-footer {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
