@@ -137,11 +137,7 @@ body {
   color: var(--secondary-color);
   
 }
-/*button*/
-.button {
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-}
+
 
 /* Assets */
 
