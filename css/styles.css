@@ -54,25 +54,25 @@ body {
   color: var(--accent-color);
 }
 /*site nav*/
-.site-nav .link .current {
+.nav-link .current {
   color: var(--accent-color);
 }
-.site-nav .link {
+.nav-link {
   color: var(--primary-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+ .nav-link:hover,
+ .nav-link:focus {
   color: var(--accent-color);
 }
 
 /*contact-nav*/
 .contact .link[href^='mailto'],
 .contact .link[href^='tel'] {
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
-.contact-nav .link:hover,
-.contact-nav .link:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: var(--accent-color);
 }
 
@@ -82,6 +82,7 @@ body {
   background-color: var(--dark-background-color);
 }
 .hero-title {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
@@ -96,26 +97,45 @@ body {
   color: var(--white-text-color);
   font-weight: 700;
 
-  background-color: var(--accent-background-color);
+  background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
 
   cursor: pointer;
 }
 .section-title {
-  color: var(--primary-text-color);}
+  color: var(--primary-text-color);
+  Weight: 700;
+  Size: 36px; 
+  Line-height: 1.71; 
+  letter-spacing: 0.03em;
+  Align: Center;
+
+}
 
 .title {
   color: var(--primary-text-color);
 }
-.feature-list .title {
-  color: var(--primary-text-color);
-}
+
 .work-list .title {
   color: var(--primary-text-color);
 }
 .team-list .title {
   color: var(--primary-text-color);
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  align: Center;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  align: Center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  
 }
 /*button*/
 .button {
@@ -135,6 +155,7 @@ body {
 /*Portfolio*/
 
 .prtf-button {
+  font-family: inherit;
   font-size: 16px;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -157,6 +178,14 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   font-weight: 700;
+  color: var(--primary-text-color);
+}
+.work-desc {
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter- spacing: 0.03em;
+  color: var(---secondary-text-color)
 }
 
 /* Footer */
