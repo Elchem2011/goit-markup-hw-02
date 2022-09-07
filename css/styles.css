@@ -33,13 +33,13 @@ body {
 }
 .nav,
 .contact-item {
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link {
-    color: var(--secondary-text-color);
-    font-weight: 500;
+  color: var(--secondary-text-color);
+  font-weight: 500;
 }
 /*logo*/
 .logo-nav {
@@ -55,7 +55,7 @@ body {
 }
 /*site nav*/
 .site-nav .link .current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .site-nav .link {
   color: var(--primary-text-color);
@@ -66,11 +66,10 @@ body {
 }
 
 /*contact-nav*/
-.contact .link[href^="mailto"],
-.contact .link[href^="tel"] {
-    color: var(--primary-text-color);
+.contact .link[href^='mailto'],
+.contact .link[href^='tel'] {
+  color: var(--primary-text-color);
 }
-
 
 .contact-nav .link:hover,
 .contact-nav .link:focus {
@@ -79,33 +78,33 @@ body {
 
 /*main*/
 .hero {
-    text-align: center;
-    background-color: var(--dark-background-color);
+  text-align: center;
+  background-color: var(--dark-background-color);
 }
 .hero-title {
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    color: var(--white-text-color);
-    text-transform: uppercase;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  text-transform: uppercase;
 }
 
 .button {
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.06em;
-    color: var(--white-text-color);
-    font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  font-weight: 700;
 
-    background-color: var(--accent-background-color);
-    border: none;
-    border-radius: 4px;
+  background-color: var(--accent-background-color);
+  border: none;
+  border-radius: 4px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 .section-title {
-  color: var(--primary-text-color);
-}
+  color: var(--primary-text-color);}
+
 .title {
   color: var(--primary-text-color);
 }
@@ -122,80 +121,74 @@ body {
 .button {
   color: var(--white-text-color);
   background-color: var(--accent-color);
-  }
+}
 
-  /* Assets */
-  .active {
-      color: var(--accent-color);
-  }
+/* Assets */
 
-  .title-hidden {
-      display: none;
-  }
+.current {
+  color: var(--accent-color);
+}
+
+.title-hidden {
+  display: none;
+}
 /*Portfolio*/
 
- .prtf-button {
-     font-size: 16px;
-     color: var(--primary-text-color);
-     font-weight: 500;
+.prtf-button {
+  font-size: 16px;
+  color: var(--primary-text-color);
+  font-weight: 500;
 
-     background-color: var(--secondary-background-color);
-     border: none;
-     border-radius: 4px;
+  background-color: var(--secondary-background-color);
+  border: none;
+  border-radius: 4px;
 
-     cursor: pointer;
- }
+  cursor: pointer;
+}
 
- .prtf-button:hover,
- .prtf-button:focus {
-     color: var(--white-text-color);
-     background-color: var(--accent-color);
- }
+.prtf-button:hover,
+.prtf-button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
 
- .work-title {
-        font-size: 18px;
-        line-height: 2;
-         letter-spacing: 0.06em;
-        font-weight: 700;
- }
+.work-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
 
 /* Footer */
 .footer {
-    background-color: var(--dark-background-color);
+  background-color: var(--dark-background-color);
 }
 
 .logo-footer {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer {
-    color: var(--white-text-color);
+  color: var(--white-text-color);
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .address-link {
-    color: var(--white-text-color)
+  color: var(--white-text-color);
 }
 
-.address-link[href^="mailto"],
-.address-link[href^="tel"] {
-    color: var(--white-opacity-text-color);
+.address-link[href^='mailto'],
+.address-link[href^='tel'] {
+  color: var(--white-opacity-text-color);
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-
-
-
-
-
-
-
